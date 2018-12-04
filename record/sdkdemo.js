@@ -63,7 +63,7 @@ function startRecording() {
     //create output folder
     fs.mkdir(storageDir, {recursive: true}, err => {
         //join channel
-        rec.joinChannel(null, "agoratest", 0, YOUR_APP_ID, storageDir);
+        rec.joinChannel(null, "sandeep", 0, 4ea6c0ca6d9740f1a693b818ef905281, storageDir);
     })
     return rec;
 }
